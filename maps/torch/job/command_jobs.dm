@@ -136,7 +136,7 @@
 							 /datum/computer_file/program/reports)
 
 /datum/job/rd/get_description_blurb()
-	return "You are the Research Director. You are responsible for the research department. You handle the science aspects of the project and liase with the corporate interests of the NT. Make sure science gets done, do some yourself, and get your scientists on away missions to find things to benefit the project. Advise the Captain on science matters."
+	return "You are the Research Director. You are responsible for the research department. You handle the science aspects of the project. Make sure science gets done, do some yourself, and get your scientists on away missions to find things to benefit the project. Advise the Captain on science matters."
 
 /datum/job/cmo
 	title = "Chief Medical Officer"
