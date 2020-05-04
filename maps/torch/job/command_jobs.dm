@@ -89,7 +89,7 @@
 							 /datum/computer_file/program/reports)
 
 /datum/job/hop/get_description_blurb()
-	return "You are the Head of Personnel. You are second in command of the ship, and are responsible for the smooth operation of the ship under your Captain. In his absence, you are expected to take his place. Your primary duty is directly managing department heads and all those outside a department heading. You also manage the Supply department, through the Deck Chief. You are also responsible for the contractors and passengers aboard the ship. In addition, you oversee the personal accounts of the crew, including their money and access. Consider Bridge Officers tools at your disposal."
+	return "You are the Head of Personnel. You are second in command of the ship, and are responsible for the smooth operation of the ship under your Captain. In his absence, you are expected to take his place. Your primary duty is directly managing department heads and all those outside a department heading. You also manage the Supply department. You are also responsible for the contractors and passengers aboard the ship. In addition, you oversee the personal accounts of the crew, including their money and access. Consider Bridge Officers tools at your disposal."
 
 /datum/job/rd
 	title = "Research Director"
