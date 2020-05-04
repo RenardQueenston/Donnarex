@@ -89,7 +89,7 @@
 							 /datum/computer_file/program/reports)
 
 /datum/job/hop/get_description_blurb()
-	return "You are the Head of Personnel. You are second in command of the ship, and are responsible for the smooth operation of the ship under your Captain. In his absence, you are expected to take his place. Your primary duty is directly managing the Service department heads and all those outside a department heading. You also manage the Supply department, through the Deck Chief. You are also responsible for passengers aboard the ship. In addition, you oversee the personal accounts of the crew, including their money and access. Consider Bridge Officers tools at your disposal."
+	return "You are the Head of Personnel. You are second in command of the ship, and are responsible for the smooth operation of the ship under your Captain. In his absence, you are expected to take his place. Your primary duty is directly managing department heads and all those outside a department heading. You also manage the Supply department, through the Deck Chief. You are also responsible for the contractors and passengers aboard the ship. In addition, you oversee the personal accounts of the crew, including their money and access. Consider Bridge Officers tools at your disposal."
 
 /datum/job/rd
 	title = "Research Director"
@@ -136,7 +136,7 @@
 							 /datum/computer_file/program/reports)
 
 /datum/job/rd/get_description_blurb()
-	return "You are the Research Director. You are responsible for the research department. You handle the science aspects of the project. Make sure science gets done, do some yourself, and get your scientists on away missions to find things to benefit the project. Advise the Captain on science matters."
+	return "You are the Research Director. You are responsible for the research department. You handle the science aspects of the project and liase with the corporate interests of the NT. Make sure science gets done, do some yourself, and get your scientists on away missions to find things to benefit the project. Advise the Captain on science matters."
 
 /datum/job/cmo
 	title = "Chief Medical Officer"
@@ -268,7 +268,7 @@
 							 /datum/computer_file/program/reports)
 
 /datum/job/hos/get_description_blurb()
-	return "You are the Head of Security. You manage ship security. The ecurity Officers, as well as the Warden and the Forensic Technician. You keep the vessel safe. You handle both internal and external security matters. You are the law. You are subordinate to the Captain or the HoP. You are expected to know the Sol law and Alert Procedure to a very high degree along with general regulations."
+	return "You are the Head of Security. You manage ship security. The Security Officers, as well as the Warden and the Forensic Technician. You keep the vessel safe. You handle both internal and external security matters. You are the law. You are subordinate to the Captain or the HoP. You are expected to know the Sol law and Alert Procedure to a very high degree along with general regulations."
 
 /datum/job/representative
 	title = "SolGov Representative"
