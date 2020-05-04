@@ -77,7 +77,7 @@
 	department_flag = EXP
 	total_positions = 5
 	spawn_positions = 5
-	supervisors = "the Captain, Head of Personnel, Research Director and Pathfinder"
+	supervisors = "Research Director and Pathfinder"
 	selection_color = "#68099e"
 	minimum_character_age = list(SPECIES_HUMAN = 18)
 	ideal_character_age = 20
