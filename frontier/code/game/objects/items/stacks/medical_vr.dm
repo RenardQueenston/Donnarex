@@ -1,5 +1,5 @@
 /obj/item/stack/medical/advanced
-	icon = 'icons/obj/medical_kits.dmi'
+	icon = 'frontier/icons/obj/medical_kits_vr.dmi'
 
 /obj/item/stack/medical/advanced/Initialize()
 	. = ..()
@@ -25,7 +25,7 @@
 			icon_state = "[initial(icon_state)]_10"
 
 /obj/item/stack/medical/bruise_pack
-	icon = 'icons/obj/medical_kits.dmi'
+	icon = 'frontier/icons/obj/medical_kits_vr.dmi'
 
 /obj/item/stack/medical/bruise_pack/Initialize()
 	. = ..()
@@ -55,7 +55,7 @@
 			icon_state = "[initial(icon_state)]_10"
 
 /obj/item/stack/medical/ointment
-	icon = 'icons/obj/medical_kits.dmi'
+	icon = 'frontier/icons/obj/medical_kits_vr.dmi'
 
 /obj/item/stack/medical/ointment/Initialize()
 	. = ..()
