@@ -134,6 +134,7 @@
 	animal_heal = 4
 	no_variants = FALSE
 	apply_sounds = list('sound/effects/ointment.ogg')
+	amount = 10
 
 /obj/item/stack/medical/ointment/attack(var/mob/living/carbon/M, var/mob/user)
 	if(..())
@@ -149,12 +150,12 @@
 		else
 			user.visible_message(SPAN_NOTICE("\The [user] starts salving wounds on [M]'s [affecting.name]."), \
 					             SPAN_NOTICE("You start salving the wounds on [M]'s [affecting.name].") )
-			playsound(src, pick(apply_sounds), 25)
 			if(!do_mob(user, M, 10))
 				to_chat(user, SPAN_NOTICE("You must stand still to salve wounds."))
 				return 1
 			user.visible_message(SPAN_NOTICE("[user] salved wounds on [M]'s [affecting.name]."), \
 			                         SPAN_NOTICE("You salved wounds on [M]'s [affecting.name].") )
+			playsound(src, pick(apply_sounds), 25)
 			use(1)
 			affecting.salve()
 			affecting.disinfect()
@@ -227,7 +228,7 @@
 	animal_heal = 7
 	no_variants = FALSE
 	apply_sounds = list('sound/effects/ointment.ogg')
-
+	amount = 10
 
 /obj/item/stack/medical/advanced/ointment/attack(var/mob/living/carbon/M, var/mob/user)
 	if(..())
@@ -243,7 +244,6 @@
 		else
 			user.visible_message(SPAN_NOTICE("\The [user] starts salving wounds on [M]'s [affecting.name]."), \
 					             SPAN_NOTICE("You start salving the wounds on [M]'s [affecting.name].") )
-			playsound(src, pick(apply_sounds), 25)
 			if(!do_mob(user, M, 10))
 				to_chat(user, SPAN_NOTICE("You must stand still to salve wounds."))
 				return 1
@@ -358,12 +358,12 @@
 		user.visible_message(
 			SPAN_NOTICE("\The [user] starts patching fractures on \the [M]'s [affecting.name]."), \
 			SPAN_NOTICE("You start patching fractures on \the [M]'s [affecting.name].") )
-		playsound(src, pick(apply_sounds), 25)
 		if(!do_mob(user, M, 10))
 			to_chat(user, SPAN_NOTICE("You must stand still to patch fractures."))
 			return 1
 		user.visible_message( \
 			SPAN_NOTICE("\The [user] patches the fractures on \the [M]'s [affecting.name] with resin."), \
 			SPAN_NOTICE("You patch fractures on \the [M]'s [affecting.name] with resin."))
+		playsound(src, pick(apply_sounds), 25)
 		affecting.heal_damage(heal_brute, heal_burn, robo_repair = TRUE)
 		use(1)
