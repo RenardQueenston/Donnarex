@@ -2252,7 +2252,7 @@
 /area/shuttle/escape_pod7/station)
 "hl" = (
 /obj/machinery/door/airlock/maintenance{
-	name = "Officer's Mess Maintenance"
+	name = "Mess Hall Downstairs Maintenance"
 	},
 /obj/machinery/door/firedoor,
 /obj/structure/cable/green{
