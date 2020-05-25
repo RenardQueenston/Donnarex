@@ -1,0 +1,8 @@
+author: RenardQueenston
+
+delete-after: True
+
+changes:
+  - maptweak: "Добавлена вторая упаковка лампочек, 50 листов пластика и лампо-заменитель в инженерный."
+  - rscadd: "Добавлены новые эмодзи."
+  - tweak: "Эмодзи mega_laugh переименован в megalaugh."
