@@ -279,6 +279,7 @@
 	for(var/organ in loaded_species.has_organ)
 		organs += loaded_species.has_organ[organ]
 	for(var/organ in loaded_species.has_limbs)
+		organs += loaded_species.has_limbs[organ]["path"]
 		if ((loaded_species.name == SPECIES_NABBER) || (organ == BP_GROIN))
 			organs += loaded_species.has_limbs[organ]["path"]
 	for(var/organ in organs)
