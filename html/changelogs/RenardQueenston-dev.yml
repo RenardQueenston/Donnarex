@@ -3,4 +3,4 @@ author: RenardQueenston
 delete-after: True
 
 changes:
-  - rscadd: "Добавлена новая музыка."
+  - soundadd: "Добавлена новая музыка."
